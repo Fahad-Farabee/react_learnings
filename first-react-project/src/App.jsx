@@ -2,7 +2,7 @@ import "./App.css";
 
 const Card = ({ title }) => {
   return (
-    <div>
+    <div className="card">
       <h2>{title}</h2>
     </div>
   );
@@ -10,8 +10,7 @@ const Card = ({ title }) => {
 
 const App = () => {
   return (
-    <div>
-      <h2>Function arrow component</h2>
+    <div className="card-container">
       <Card title="Star wars" />
       <Card title="Avatar" />
       <Card title="The lion king" />
